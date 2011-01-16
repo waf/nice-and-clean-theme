@@ -1,12 +1,22 @@
+Configuration
+=============
 Make sure you change your location code in the conkystats config 
 to get accurate weather reports. The location code uses Accuweather's
 system. For people in the US it is your zipcode.
 
-Start up conky for each conky config. For example:
-conky -c ~/.config/awesome/themes/nice-and-clean-theme/conky/conkydate &
-conky -c ~/.config/awesome/themes/nice-and-clean-theme/conky/conkyhr &
-conky -c ~/.config/awesome/themes/nice-and-clean-theme/conky/conkymin &
-conky -c ~/.config/awesome/themes/nice-and-clean-theme/conky/conkystats &
+Startup
+=======
+There are 4 conky configuration files in this directory. Each one should 
+be passed into conky. For example::
+
+    cd conky
+    conky -c conkydate &
+    conky -c conkyhr &
+    conky -c conkymin &
+    conky -c conkystats &
+
+About
+=====
 
 This conky theme goes well with the "Nice and Clean" awesome window 
 manager theme, which is based off of ghost1227's openbox work.
