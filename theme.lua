@@ -2,7 +2,7 @@
 -- By Blazeix, based off of ghost1227's openbox theme.
 
 theme = {}
-theme.theme_dir = awful.util.getdir("config") .. "/themes/nice_and_clean"
+theme.theme_dir = awful.util.getdir("config") .. "/themes/nice-and-clean-theme"
 theme.wallpaper_cmd = { "awsetbg " .. theme.theme_dir .. "/background.jpg" }
 
 theme.font          = "sans 9"
