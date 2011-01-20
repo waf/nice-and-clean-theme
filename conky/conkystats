@@ -28,5 +28,5 @@ override_utf8_locale no
 
 TEXT
 ${color ce2c51}RAM Usage:		CPU Usage:		Weather:
-${color ffffff}Used: ${mem}		Average: ${cpu cpu0}%		${execi 300 ./weather.sh 48334}
+${color ffffff}Used: ${mem}		Average: ${cpu cpu0}%		${execi 300 ~/.conky/weather.sh 48334}
 Free: ${memfree}	
