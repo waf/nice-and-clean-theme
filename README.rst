@@ -20,6 +20,9 @@ subdirectory::
 Make sure you change your location code in the conkystats config 
 to get accurate weather reports. The location code uses Accuweather's
 system. For people in the US it is your zipcode.
+For people in other location please find the location code in below link.
+
+http://wwwa.accuweather.com/phoenix2/help/adc/pr_aviation.htm
 
 About
 =====
